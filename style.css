@@ -32,7 +32,17 @@ p {
 	font-weight: 300;
 	letter-spacing: .05rem;
 }
-.section-title {
+.parcours-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	text-align: center;
+}
+
+.parcours-soustitle {
 	font-size: 4rem;
 	font-weight: 300;
 	color: black;
@@ -247,6 +257,9 @@ p {
 	max-width: 500px;
 	margin: 0 auto;
 }
+
+
+
 #services .service-bottom {
 	display: flex;
 	align-items: center;
@@ -286,7 +299,7 @@ p {
 	margin-bottom: 20px;
 }
 #services .service-item h2 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
