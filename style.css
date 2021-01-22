@@ -381,6 +381,23 @@ p {
 #projects .project-info p {
 	color: white;
 }
+/* A link that has not been visited */
+a:link {
+    color: pink;
+}
+/* A link that has been visited */
+a:visited {
+    color: rgb(255, 255, 255);
+}
+/* A link that is hovered on */
+a:hover {
+    color: rgb(131, 162, 250);
+}
+/* A link that is selected */
+a:active {
+    color: green;
+}
+#projects .link { color: #FF0000; } /* CSS link color */
 #projects .project-img {
 	flex-basis: 50%;
 	height: 300px;
