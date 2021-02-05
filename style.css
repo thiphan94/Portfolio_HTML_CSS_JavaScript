@@ -338,18 +338,18 @@ p {
 #projects .projects-header h1 {
 	margin-bottom: 50px;
 }
-#projects .all-projects {
+#projects .list-projects {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
-#projects .project-item {
+#projects .project-element {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	width: 80%;
+	width: 55%;
 	margin: 20px auto;
 	overflow: hidden;
 	border-radius: 10px;
@@ -362,7 +362,7 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #101114 10%, #5a6574 90%);
 	color: white;
 }
 #projects .project-info h1 {
@@ -395,7 +395,7 @@ a:active {
 }
 #projects .link { color: #FF0000; } /* CSS link color */
 #projects .project-img {
-	flex-basis: 30%;
+	flex-basis: 55%;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
@@ -407,13 +407,13 @@ a:active {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #dcdfe2 0%, #282c2e 100%);
 	opacity: .7;
 }
 #projects .project-img img {
 	transition: .3s ease transform;
 }
-#projects .project-item:hover .project-img img {
+#projects .project-element:hover .project-img img {
 	transform: scale(1.1);
 }
 /* End Projects section */
@@ -582,22 +582,22 @@ a:active {
 	/* End Services Section */
 
 	/* Project */
-	#projects .project-item {
+	#projects .project-element {
 		flex-direction: row;
 	}
-	#projects .project-item:nth-child(even) {
+	#projects .project-element:nth-child(even) {
 		flex-direction: row-reverse;
 	}
-	#projects .project-item {
+	#projects .project-element {
 		height: 400px;
 		margin: 0;
 		width: 100%;
 		border-radius: 0;
 	}
-	#projects .all-projects .project-info {
+	#projects .list-projects .project-info {
 		height: 100%;
 	}
-	#projects .all-projects .project-img {
+	#projects .list-projects .project-img {
 		height: 100%;
 	}
 	/* End Project */
